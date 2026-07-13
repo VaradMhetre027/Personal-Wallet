@@ -1,0 +1,35 @@
+# ── Core Framework ──
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# ── Database ──
+sqlalchemy
+alembic
+aiosqlite
+
+# ── Security ──
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+python-multipart
+pyotp
+
+# ── Rate Limiting ──
+slowapi
+
+# ── Utilities ──
+python-dotenv
+email-validator
+
+# ── Export ──
+openpyxl
+
+# ── Scheduling ──
+apscheduler
+
+# ── Dev/Testing ──
+pytest
+pytest-asyncio
+httpx
